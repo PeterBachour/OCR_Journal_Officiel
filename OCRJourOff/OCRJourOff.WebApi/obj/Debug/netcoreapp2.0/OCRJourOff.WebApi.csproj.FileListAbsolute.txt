@@ -1,0 +1,15 @@
+C:\Dev\OCRJourOff\OCRJourOff.WebApi\bin\Debug\netcoreapp2.0\OCRJourOff.WebApi.deps.json
+C:\Dev\OCRJourOff\OCRJourOff.WebApi\bin\Debug\netcoreapp2.0\OCRJourOff.WebApi.runtimeconfig.json
+C:\Dev\OCRJourOff\OCRJourOff.WebApi\bin\Debug\netcoreapp2.0\OCRJourOff.WebApi.runtimeconfig.dev.json
+C:\Dev\OCRJourOff\OCRJourOff.WebApi\bin\Debug\netcoreapp2.0\OCRJourOff.WebApi.dll
+C:\Dev\OCRJourOff\OCRJourOff.WebApi\bin\Debug\netcoreapp2.0\OCRJourOff.WebApi.pdb
+C:\Dev\OCRJourOff\OCRJourOff.WebApi\obj\Debug\netcoreapp2.0\OCRJourOff.WebApi.csprojAssemblyReference.cache
+C:\Dev\OCRJourOff\OCRJourOff.WebApi\obj\Debug\netcoreapp2.0\OCRJourOff.WebApi.csproj.CoreCompileInputs.cache
+C:\Dev\OCRJourOff\OCRJourOff.WebApi\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Dev\OCRJourOff\OCRJourOff.WebApi\obj\Debug\netcoreapp2.0\OCRJourOff.WebApi.AssemblyInfoInputs.cache
+C:\Dev\OCRJourOff\OCRJourOff.WebApi\obj\Debug\netcoreapp2.0\OCRJourOff.WebApi.AssemblyInfo.cs
+C:\Dev\OCRJourOff\OCRJourOff.WebApi\obj\Debug\netcoreapp2.0\OCRJourOff.WebApi.dll
+C:\Dev\OCRJourOff\OCRJourOff.WebApi\obj\Debug\netcoreapp2.0\OCRJourOff.WebApi.pdb
+C:\Dev\OCRJourOff\OCRJourOff.WebApi\bin\Debug\netcoreapp2.0\OCRJourOff.BusinessLogic.dll
+C:\Dev\OCRJourOff\OCRJourOff.WebApi\bin\Debug\netcoreapp2.0\OCRJourOff.BusinessLogic.pdb
+C:\Dev\OCRJourOff\OCRJourOff.WebApi\obj\Debug\netcoreapp2.0\OCRJourOff.WebApi.csproj.CopyComplete
