@@ -1,9 +1,0 @@
-C:\Dev\OCRJourOff\OCRJourOff.DataAccessLayer\bin\Debug\netcoreapp2.0\OCRJourOff.DataAccessLayer.deps.json
-C:\Dev\OCRJourOff\OCRJourOff.DataAccessLayer\bin\Debug\netcoreapp2.0\OCRJourOff.DataAccessLayer.dll
-C:\Dev\OCRJourOff\OCRJourOff.DataAccessLayer\bin\Debug\netcoreapp2.0\OCRJourOff.DataAccessLayer.pdb
-C:\Dev\OCRJourOff\OCRJourOff.DataAccessLayer\obj\Debug\netcoreapp2.0\OCRJourOff.DataAccessLayer.csprojAssemblyReference.cache
-C:\Dev\OCRJourOff\OCRJourOff.DataAccessLayer\obj\Debug\netcoreapp2.0\OCRJourOff.DataAccessLayer.csproj.CoreCompileInputs.cache
-C:\Dev\OCRJourOff\OCRJourOff.DataAccessLayer\obj\Debug\netcoreapp2.0\OCRJourOff.DataAccessLayer.AssemblyInfoInputs.cache
-C:\Dev\OCRJourOff\OCRJourOff.DataAccessLayer\obj\Debug\netcoreapp2.0\OCRJourOff.DataAccessLayer.AssemblyInfo.cs
-C:\Dev\OCRJourOff\OCRJourOff.DataAccessLayer\obj\Debug\netcoreapp2.0\OCRJourOff.DataAccessLayer.dll
-C:\Dev\OCRJourOff\OCRJourOff.DataAccessLayer\obj\Debug\netcoreapp2.0\OCRJourOff.DataAccessLayer.pdb

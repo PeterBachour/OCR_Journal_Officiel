@@ -1,0 +1,124 @@
+﻿@{
+    ViewData["Title"] = "Page";
+}
+<h2>Search for your page here</h2>
+<hr />
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    @*<link rel="stylesheet" href="~/css/bootswatch.css" />*@
+    <link rel="stylesheet" href="~/css/basic.css" />
+
+    <script type="text/javascript" src="//api.yamli.com/js/yamli_api.js"></script>
+    <script type="text/javascript">
+        if (typeof (Yamli) == 'object' && Yamli.init()) {
+            Yamli.yamlify('#myImput');
+        }
+    </script>
+
+
+</head>
+<body>
+
+    @*<input type="button" value="Upload Pages" id="idUploadPages" />*@
+
+    <form class="example">
+        <input id='myInput' type='text' name="search" placeholder="Search...">
+        <button id="search" class="btn btn-primary"><i class="fa fa-search"></i></button>
+        <br />
+        <center>
+            <div class="left">
+                <img id="page-image" name="4467" src="@Url.Action("GetDummyImage", "Page")?id=4467" />
+                <div class="pagination-div">
+                    <button type="button" id="previous" class="btn btn-primary">&#8249;</button>
+                    <button type="button" id="next" class="btn btn-primary">&#8250;</button>
+                </div>
+            </div>
+            <div id="myResultTable" class="right">
+                <select id="Results"></select>
+            </div>
+        </center>
+    </form>
+   
+</body>
+</html>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $('.example').submit(function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+        });
+
+        $('#idUploadPages').on('click', function () {
+            $.ajax({
+                url: "@(Url.Action("Upload", "Page"))",
+                type: "POST",
+                //data: null,
+                cache: false,
+                async: true,
+                success: function (response) {
+                    alert(response.responseText);
+                },
+                error: function (response) {
+                    alert(response.responseText)
+                },
+            });
+        });
+
+        $('#search').on('click', function () {
+            submitSearch();
+        });
+
+        $('#next').on('click', function () {
+            var id = parseInt($("#page-image").attr("name"));
+            var path = "@Url.Action("GetDummyImage", "Page")?id=" + (id - 1);
+            if (path == null) {
+                alert("hi");
+            }
+            $("#page-image").attr("src", path);
+            $("#page-image").attr("name", id - 1);
+        });
+
+        $('#previous').on('click', function () {
+            var id = parseInt($("#page-image").attr("name"));
+            var path = "@Url.Action("GetDummyImage", "Page")?id=" + (id + 1);
+            $("#page-image").attr("src", path);
+            $("#page-image").attr("name", id + 1);
+        });
+
+        $("select#Results").change(function () {
+            var id = $(this).children(":selected").attr('id');
+            $("#page-image").attr("src", "@Url.Action("GetDummyImage", "Page")?id=" + id);
+            $("#page-image").attr("name", id);
+        });
+
+        function submitSearch() {
+            var text = $("#myInput").val();
+            $.ajax({
+                type: "POST",
+                url: '/Page/SearchForText?search=' + text,
+                contentType: "application/json; charset=utf-8",
+                cache: false,
+                async: true,
+                success: function (response) {
+                    if (response.responseText != "") {
+                        $('#myResultTable').show();
+                        $('#Results').attr('size', Math.max(2, response.size));
+                    } else {
+                        $('#myResultTable').hide();
+                    }
+                    $('#Results').html(response.responseText);
+                },
+                error: function (response) {
+                    alert(response.responseText);
+                },
+            });
+        }
+        //$("#myInput").on("change paste keyup", function () {
+        //    submitSearch();
+        //});
+    });
+</script>

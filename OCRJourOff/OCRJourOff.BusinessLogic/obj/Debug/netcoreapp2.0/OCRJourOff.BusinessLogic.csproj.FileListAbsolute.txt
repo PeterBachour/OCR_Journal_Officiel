@@ -1,9 +1,0 @@
-C:\Dev\OCRJourOff\OCRJourOff.BusinessLogic\bin\Debug\netcoreapp2.0\OCRJourOff.BusinessLogic.deps.json
-C:\Dev\OCRJourOff\OCRJourOff.BusinessLogic\bin\Debug\netcoreapp2.0\OCRJourOff.BusinessLogic.dll
-C:\Dev\OCRJourOff\OCRJourOff.BusinessLogic\bin\Debug\netcoreapp2.0\OCRJourOff.BusinessLogic.pdb
-C:\Dev\OCRJourOff\OCRJourOff.BusinessLogic\obj\Debug\netcoreapp2.0\OCRJourOff.BusinessLogic.csprojAssemblyReference.cache
-C:\Dev\OCRJourOff\OCRJourOff.BusinessLogic\obj\Debug\netcoreapp2.0\OCRJourOff.BusinessLogic.csproj.CoreCompileInputs.cache
-C:\Dev\OCRJourOff\OCRJourOff.BusinessLogic\obj\Debug\netcoreapp2.0\OCRJourOff.BusinessLogic.AssemblyInfoInputs.cache
-C:\Dev\OCRJourOff\OCRJourOff.BusinessLogic\obj\Debug\netcoreapp2.0\OCRJourOff.BusinessLogic.AssemblyInfo.cs
-C:\Dev\OCRJourOff\OCRJourOff.BusinessLogic\obj\Debug\netcoreapp2.0\OCRJourOff.BusinessLogic.dll
-C:\Dev\OCRJourOff\OCRJourOff.BusinessLogic\obj\Debug\netcoreapp2.0\OCRJourOff.BusinessLogic.pdb

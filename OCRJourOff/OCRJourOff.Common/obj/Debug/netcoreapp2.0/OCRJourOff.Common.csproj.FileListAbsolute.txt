@@ -1,9 +1,0 @@
-C:\Dev\OCRJourOff\OCRJourOff.Common\bin\Debug\netcoreapp2.0\OCRJourOff.Common.deps.json
-C:\Dev\OCRJourOff\OCRJourOff.Common\bin\Debug\netcoreapp2.0\OCRJourOff.Common.dll
-C:\Dev\OCRJourOff\OCRJourOff.Common\bin\Debug\netcoreapp2.0\OCRJourOff.Common.pdb
-C:\Dev\OCRJourOff\OCRJourOff.Common\obj\Debug\netcoreapp2.0\OCRJourOff.Common.csprojAssemblyReference.cache
-C:\Dev\OCRJourOff\OCRJourOff.Common\obj\Debug\netcoreapp2.0\OCRJourOff.Common.csproj.CoreCompileInputs.cache
-C:\Dev\OCRJourOff\OCRJourOff.Common\obj\Debug\netcoreapp2.0\OCRJourOff.Common.AssemblyInfoInputs.cache
-C:\Dev\OCRJourOff\OCRJourOff.Common\obj\Debug\netcoreapp2.0\OCRJourOff.Common.AssemblyInfo.cs
-C:\Dev\OCRJourOff\OCRJourOff.Common\obj\Debug\netcoreapp2.0\OCRJourOff.Common.dll
-C:\Dev\OCRJourOff\OCRJourOff.Common\obj\Debug\netcoreapp2.0\OCRJourOff.Common.pdb
